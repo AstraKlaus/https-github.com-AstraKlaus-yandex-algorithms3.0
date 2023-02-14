@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9609BD94299C376500837CBF /* sumSubMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609BD93299C376500837CBF /* sumSubMatrix.swift */; };
 		964F6721299AC3C7008FF3F0 /* 8work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F6720299AC3C7008FF3F0 /* 8work.swift */; };
 		9676F782299B9A17005201E7 /* barchart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676F781299B9A17005201E7 /* barchart.swift */; };
 		96E1A6E5299A66010037F314 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E1A6E4299A66010037F314 /* main.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9609BD93299C376500837CBF /* sumSubMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumSubMatrix.swift; sourceTree = "<group>"; };
 		964F6720299AC3C7008FF3F0 /* 8work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8work.swift; sourceTree = "<group>"; };
 		9676F780299B88DC005201E7 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		9676F781299B9A17005201E7 /* barchart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barchart.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 		96E1A6D8299A66010037F314 = {
 			isa = PBXGroup;
 			children = (
-				9676F781299B9A17005201E7 /* barchart.swift */,
 				96E1A6E3299A66010037F314 /* Competition */,
 				96E1A6E2299A66010037F314 /* Products */,
 			);
@@ -65,10 +66,12 @@
 		96E1A6E3299A66010037F314 /* Competition */ = {
 			isa = PBXGroup;
 			children = (
+				9676F781299B9A17005201E7 /* barchart.swift */,
 				96E1A6E4299A66010037F314 /* main.swift */,
 				964F6720299AC3C7008FF3F0 /* 8work.swift */,
 				96E1A6EB299A758E0037F314 /* greatString.swift */,
 				9676F780299B88DC005201E7 /* input.txt */,
+				9609BD93299C376500837CBF /* sumSubMatrix.swift */,
 			);
 			path = Competition;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				9676F782299B9A17005201E7 /* barchart.swift in Sources */,
 				964F6721299AC3C7008FF3F0 /* 8work.swift in Sources */,
 				96E1A6EC299A758E0037F314 /* greatString.swift in Sources */,
+				9609BD94299C376500837CBF /* sumSubMatrix.swift in Sources */,
 				96E1A6E5299A66010037F314 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +263,11 @@
 		96E1A6E9299A66010037F314 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BTW7W83H64;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yandex.contest.algorithms3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -270,9 +276,11 @@
 		96E1A6EA299A66010037F314 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BTW7W83H64;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yandex.contest.algorithms3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
