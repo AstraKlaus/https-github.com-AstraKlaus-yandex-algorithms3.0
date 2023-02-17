@@ -1,3 +1,4 @@
+/*
 import Foundation
 
 let main = Array(readLine()!)
@@ -101,7 +102,7 @@ if main.count%2 != 0{
 
 var temping = dict.sorted(by: <)
 temping.forEach({print($0.key ,": ", $0.value, separator: "")})
-/*
+
 print()
 dict = [:]
 
